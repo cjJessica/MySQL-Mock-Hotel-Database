@@ -1,0 +1,64 @@
+Instructions:
+
+1) open up the users.sql file
+	- In there you will create the new database, add grants and users, etc
+
+	- 3 users and roles were created in this file so the users and grants requirements were met.
+
+
+
+2)open up the tables.sql file 
+	- copy and paste the tables one by one. I don't know if the comments would mess up the tables if inserted into the mysql, but just to be on the safe side, I didn't include them.
+	- Add the triggers after the tables
+
+	-- 8 tables and 2 triggers were created so the table and triggers requirment for this assignment it met.
+
+
+
+3) Open up the inserts.sql file
+	- I tried to insert at least one record before inserting the rest together. 
+	- Add the inserts for each table
+	-(most of the inserts have a lot of subqueries, so the one sub query requirment is met here)
+
+	
+
+4) Open up the routines.sql file
+	- Enter the first function (total_for_order2)
+	- Enter the the second function (customer_tab)
+	- After, to test if both of the functions worked, you can insert the select statement that is shown right below the second function. It will be under the comment "tests function 2"
+
+	- Then insert procedure 1 (addvisit)
+	- To test if it works, there is a procedure call right underneath the procedure creation that you can run. It is under comment "Test procedure 1"
+
+	- Enter the second procedure (update_rooms_availability)
+	- To test this procedure, underneath there is a procedure call. It will be under the "Test Procedure 2" comment
+
+	- Enter the third procedure (test_event3)
+	- This procedure will be run in an event, so you can test it then or now by entering the commented out procedure call that is located underneath the comment "Test procedure 3"
+
+	-- This file met the requirements of 2 functions and 2 procedures
+
+
+
+5) Open up the views.sql file
+	- Enter the first view
+	- Enter the second view
+
+	-- This file meets the requirement of 2 views and both views use aggregate (Group By) queries, so that requirement is also met.
+
+	-- BOTH THE FIRST AND THE SECOND VIEWS ARE MY REPORTS
+
+
+
+6) Open up the queries.sql file
+	- Most of my queries are in my inserts, procedures, functions, and views
+	- Enter the query
+
+	-- This query uses a majority of my tables in the FROM line, so that requirement is met
+
+
+
+7) Open up the event.sql file
+	- My event starts at 05-11 at 2:40am. However, if by the time you are entering this, that date and time is behind, please update it to your current date and the time you want it to run.
+
+	-- This file meets the requirement of 1 event.
